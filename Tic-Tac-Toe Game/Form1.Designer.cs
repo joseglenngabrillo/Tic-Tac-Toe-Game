@@ -40,6 +40,7 @@ namespace Tic_Tac_Toe_Game
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -126,7 +127,7 @@ namespace Tic_Tac_Toe_Game
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(26, 12);
             this.button10.Name = "button10";
@@ -138,7 +139,7 @@ namespace Tic_Tac_Toe_Game
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button11.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(147, 12);
             this.button11.Name = "button11";
@@ -147,12 +148,24 @@ namespace Tic_Tac_Toe_Game
             this.button11.Text = "Reset";
             this.button11.UseVisualStyleBackColor = false;
             // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.SystemColors.Info;
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(267, 12);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(100, 43);
+            this.button12.TabIndex = 11;
+            this.button12.Text = "Exit";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(394, 461);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -185,6 +198,7 @@ namespace Tic_Tac_Toe_Game
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
     }
 }
 
