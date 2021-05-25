@@ -37,7 +37,7 @@ namespace Tic_Tac_Toe_Game
             this.btnC3R2 = new System.Windows.Forms.Button();
             this.btnC1R3 = new System.Windows.Forms.Button();
             this.btnC2R3 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnC3R3 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -118,14 +118,14 @@ namespace Tic_Tac_Toe_Game
             this.btnC2R3.TabIndex = 7;
             this.btnC2R3.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnC3R3
             // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(267, 314);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(100, 100);
-            this.button9.TabIndex = 8;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnC3R3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC3R3.Location = new System.Drawing.Point(267, 314);
+            this.btnC3R3.Name = "btnC3R3";
+            this.btnC3R3.Size = new System.Drawing.Size(100, 100);
+            this.btnC3R3.TabIndex = 8;
+            this.btnC3R3.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
@@ -170,7 +170,7 @@ namespace Tic_Tac_Toe_Game
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.btnC3R3);
             this.Controls.Add(this.btnC2R3);
             this.Controls.Add(this.btnC1R3);
             this.Controls.Add(this.btnC3R2);
@@ -197,7 +197,7 @@ namespace Tic_Tac_Toe_Game
         private System.Windows.Forms.Button btnC3R2;
         private System.Windows.Forms.Button btnC1R3;
         private System.Windows.Forms.Button btnC2R3;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnC3R3;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
