@@ -143,6 +143,7 @@ namespace Tic_Tac_Toe_Game
             this.btnNewGame.TabIndex = 9;
             this.btnNewGame.Text = "New Game";
             this.btnNewGame.UseVisualStyleBackColor = false;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
             // btnReset
             // 

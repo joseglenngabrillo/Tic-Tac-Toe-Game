@@ -14,6 +14,7 @@ namespace Tic_Tac_Toe_Game
     {
         bool turn = true; //where False = Y turn; True = X turn
         int turn_count = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +26,11 @@ namespace Tic_Tac_Toe_Game
         }
 
         private void btn_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+        }
+
+        private void btnNewGame_Click(object sender, EventArgs e)
         {
 
         }
