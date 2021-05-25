@@ -33,6 +33,7 @@ namespace Tic_Tac_Toe_Game
             else
                 b.Text = "O";
             turn = !turn;
+            b.Enabled = true;
         }
 
         private void btnNewGame_Click(object sender, EventArgs e)
