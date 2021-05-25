@@ -40,7 +40,7 @@ namespace Tic_Tac_Toe_Game
             this.btnC3R3 = new System.Windows.Forms.Button();
             this.btnNewGame = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnC1R1
@@ -150,16 +150,16 @@ namespace Tic_Tac_Toe_Game
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btnExit
             // 
-            this.button12.BackColor = System.Drawing.SystemColors.Info;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(267, 12);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(100, 43);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Exit";
-            this.button12.UseVisualStyleBackColor = false;
+            this.btnExit.BackColor = System.Drawing.SystemColors.Info;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(267, 12);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(100, 43);
+            this.btnExit.TabIndex = 11;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -167,7 +167,7 @@ namespace Tic_Tac_Toe_Game
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(394, 461);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnC3R3);
@@ -200,7 +200,7 @@ namespace Tic_Tac_Toe_Game
         private System.Windows.Forms.Button btnC3R3;
         private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 
