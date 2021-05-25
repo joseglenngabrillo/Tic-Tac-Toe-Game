@@ -26,5 +26,10 @@ namespace Tic_Tac_Toe_Game
         {
 
         }
+
+        private void button_click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
