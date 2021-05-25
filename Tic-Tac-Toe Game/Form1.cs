@@ -38,19 +38,26 @@ namespace Tic_Tac_Toe_Game
 
         private void btnNewGame_Click(object sender, EventArgs e)
         {
-            turn = true;
-            turn_count = 0;
+            btnC1R1.Enabled = true;
+            btnC2R1.Enabled = true;
+            btnC3R1.Enabled = true;
+            btnC1R2.Enabled = true;
+            btnC2R2.Enabled = true;
+            btnC3R2.Enabled = true;
+            btnC1R3.Enabled = true;
+            btnC2R3.Enabled = true;
+            btnC3R3.Enabled = true;
 
-            try
-            {
-                foreach (Control c in Controls)
-                {
-                    Button b = (Button)c;
-                    b.Enabled = true;
-                    b.Text = "";
-                }
-            }
-            catch { }
+            btnC1R1.Text = "";
+            btnC2R1.Text = "";
+            btnC3R1.Text = "";
+            btnC1R2.Text = "";
+            btnC2R2.Text = "";
+            btnC3R2.Text = "";
+            btnC1R3.Text = "";
+            btnC2R3.Text = "";
+            btnC3R3.Text = "";
+
         }
     }
 }
