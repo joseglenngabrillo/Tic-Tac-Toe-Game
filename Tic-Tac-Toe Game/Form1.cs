@@ -17,19 +17,9 @@ namespace Tic_Tac_Toe_Game
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button_click(object sender, EventArgs e)
-        {
-
+            Application.Exit();
         }
     }
 }

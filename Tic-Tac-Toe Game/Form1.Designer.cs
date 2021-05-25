@@ -51,7 +51,6 @@ namespace Tic_Tac_Toe_Game
             this.btnC1R1.Size = new System.Drawing.Size(100, 100);
             this.btnC1R1.TabIndex = 0;
             this.btnC1R1.UseVisualStyleBackColor = true;
-            this.btnC1R1.Click += new System.EventHandler(this.button_click);
             // 
             // btnC2R1
             // 
@@ -61,7 +60,6 @@ namespace Tic_Tac_Toe_Game
             this.btnC2R1.Size = new System.Drawing.Size(100, 100);
             this.btnC2R1.TabIndex = 1;
             this.btnC2R1.UseVisualStyleBackColor = true;
-            this.btnC2R1.Click += new System.EventHandler(this.button_click);
             // 
             // btnC3R1
             // 
@@ -71,7 +69,6 @@ namespace Tic_Tac_Toe_Game
             this.btnC3R1.Size = new System.Drawing.Size(100, 100);
             this.btnC3R1.TabIndex = 2;
             this.btnC3R1.UseVisualStyleBackColor = true;
-            this.btnC3R1.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnC1R2
             // 
@@ -137,7 +134,6 @@ namespace Tic_Tac_Toe_Game
             this.btnNewGame.TabIndex = 9;
             this.btnNewGame.Text = "New Game";
             this.btnNewGame.UseVisualStyleBackColor = false;
-            this.btnNewGame.Click += new System.EventHandler(this.button10_Click);
             // 
             // btnReset
             // 
@@ -160,6 +156,7 @@ namespace Tic_Tac_Toe_Game
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
