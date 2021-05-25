@@ -13,6 +13,7 @@ namespace Tic_Tac_Toe_Game
     public partial class Form1 : Form
     {
         bool turn = true; //where False = Y turn; True = X turn
+        int turn_count = 0;
         public Form1()
         {
             InitializeComponent();
