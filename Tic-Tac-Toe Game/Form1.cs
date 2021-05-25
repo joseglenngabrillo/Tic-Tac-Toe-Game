@@ -28,6 +28,11 @@ namespace Tic_Tac_Toe_Game
         private void btn_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
+            if (turn)
+                b.Text = "X";
+            else
+                b.Text = "O";
+            turn = !turn;
         }
 
         private void btnNewGame_Click(object sender, EventArgs e)
