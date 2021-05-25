@@ -131,6 +131,7 @@ namespace Tic_Tac_Toe_Game
             this.btnC3R3.Size = new System.Drawing.Size(100, 100);
             this.btnC3R3.TabIndex = 8;
             this.btnC3R3.UseVisualStyleBackColor = true;
+            this.btnC3R3.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnNewGame
             // 
