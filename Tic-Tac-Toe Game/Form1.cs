@@ -23,5 +23,10 @@ namespace Tic_Tac_Toe_Game
         {
             Application.Exit();
         }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
