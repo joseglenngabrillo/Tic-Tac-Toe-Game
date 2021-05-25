@@ -176,6 +176,7 @@ namespace Tic_Tac_Toe_Game
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe Game";
             this.ResumeLayout(false);
 
