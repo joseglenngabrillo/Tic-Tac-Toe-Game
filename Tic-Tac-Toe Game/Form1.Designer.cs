@@ -38,7 +38,7 @@ namespace Tic_Tac_Toe_Game
             this.btnC1R3 = new System.Windows.Forms.Button();
             this.btnC2R3 = new System.Windows.Forms.Button();
             this.btnC3R3 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btnNewGame = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -127,17 +127,17 @@ namespace Tic_Tac_Toe_Game
             this.btnC3R3.TabIndex = 8;
             this.btnC3R3.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnNewGame
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(26, 12);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(100, 43);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "New Game";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.btnNewGame.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnNewGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewGame.Location = new System.Drawing.Point(26, 12);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(100, 43);
+            this.btnNewGame.TabIndex = 9;
+            this.btnNewGame.Text = "New Game";
+            this.btnNewGame.UseVisualStyleBackColor = false;
+            this.btnNewGame.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -169,7 +169,7 @@ namespace Tic_Tac_Toe_Game
             this.ClientSize = new System.Drawing.Size(394, 461);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.btnC3R3);
             this.Controls.Add(this.btnC2R3);
             this.Controls.Add(this.btnC1R3);
@@ -198,7 +198,7 @@ namespace Tic_Tac_Toe_Game
         private System.Windows.Forms.Button btnC1R3;
         private System.Windows.Forms.Button btnC2R3;
         private System.Windows.Forms.Button btnC3R3;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
     }
