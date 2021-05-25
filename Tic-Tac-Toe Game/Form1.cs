@@ -57,7 +57,6 @@ namespace Tic_Tac_Toe_Game
             btnC1R3.Text = "";
             btnC2R3.Text = "";
             btnC3R3.Text = "";
-
         }
     }
 }
