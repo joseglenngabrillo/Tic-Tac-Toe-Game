@@ -160,7 +160,7 @@ namespace Tic_Tac_Toe_Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(394, 461);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnNewGame);
