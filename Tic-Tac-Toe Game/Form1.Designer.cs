@@ -134,7 +134,7 @@ namespace Tic_Tac_Toe_Game
             // 
             // btnNewGame
             // 
-            this.btnNewGame.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnNewGame.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnNewGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewGame.Location = new System.Drawing.Point(26, 12);
             this.btnNewGame.Name = "btnNewGame";
