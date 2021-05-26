@@ -132,12 +132,13 @@ namespace Tic_Tac_Toe_Game
             // 
             // btnC3R3
             // 
+            this.btnC3R3.BackColor = System.Drawing.Color.White;
             this.btnC3R3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC3R3.Location = new System.Drawing.Point(267, 314);
             this.btnC3R3.Name = "btnC3R3";
             this.btnC3R3.Size = new System.Drawing.Size(100, 100);
             this.btnC3R3.TabIndex = 8;
-            this.btnC3R3.UseVisualStyleBackColor = true;
+            this.btnC3R3.UseVisualStyleBackColor = false;
             this.btnC3R3.Click += new System.EventHandler(this.btn_Click);
             // 
             // btnNewGame
