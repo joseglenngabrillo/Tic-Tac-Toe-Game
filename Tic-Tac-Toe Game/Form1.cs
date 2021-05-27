@@ -73,8 +73,19 @@ namespace Tic_Tac_Toe_Game
             // Third horizontal line check from column 1 to 3 in Row 3
             else if ((btnC1R3.Text == btnC2R3.Text) && (btnC2R3.Text == btnC3R3.Text) && (!btnC1R3.Enabled))
                 PlayerWinner = true;
+
+            // Player Winner with vertical line checks
+            // First vertical line check from row 1 to 3 in column 1
+            else if ((btnC1R1.Text == btnC1R2.Text) && (btnC1R2.Text == btnC1R3.Text) && (!btnC1R1.Enabled))
+                PlayerWinner = true;
+            // Second vertical line check from row 1 to 3 in column 2
+            else if ((btnC2R1.Text == btnC2R2.Text) && (btnC2R2.Text == btnC2R3.Text) && (!btnC2R1.Enabled))
+                PlayerWinner = true;
+            // Third vertical line check from row 1 to 3 in column 3
+            else if ((btnC3R1.Text == btnC3R2.Text) && (btnC3R2.Text == btnC3R3.Text) && (!btnC3R1.Enabled))
+                PlayerWinner = true;
         }
-        
+
     }
 }
 
