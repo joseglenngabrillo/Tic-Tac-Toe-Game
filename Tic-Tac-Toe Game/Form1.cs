@@ -34,6 +34,7 @@ namespace Tic_Tac_Toe_Game
                 b.Text = "O";
             turn = !turn;
             b.Enabled = false;
+            turn_count++;
             LineCheckPlayerWinner();
         }
 
@@ -103,7 +104,13 @@ namespace Tic_Tac_Toe_Game
 
                 MessageBox.Show(winner + "Wins!", "Player Winner!");
             }
+            else
+            {
+                if (turn_count == 9)
+                    MessageBox.Show("Draw!", "Player Winner!");
             }
+
         }
+    }
 }
 
