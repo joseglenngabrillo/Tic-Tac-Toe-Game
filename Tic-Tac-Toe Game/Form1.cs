@@ -96,6 +96,10 @@ namespace Tic_Tac_Toe_Game
             if (PlayerWinner)
             {
                 string winner = "";
+                if (turn)
+                    winner = "Player O ";
+                else
+                    winner = "Player X ";
             }
             }
         }
