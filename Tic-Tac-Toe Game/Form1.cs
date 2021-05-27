@@ -61,6 +61,7 @@ namespace Tic_Tac_Toe_Game
         }
         private void LineCheckPlayerWinner()
         {
+            bool PlayerWinner = false;
         }
     }
 }
