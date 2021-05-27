@@ -93,7 +93,11 @@ namespace Tic_Tac_Toe_Game
             else if ((btnC3R1.Text == btnC2R2.Text) && (btnC2R2.Text == btnC1R3.Text) && (!btnC3R1.Enabled))
                 PlayerWinner = true;
 
+            if (PlayerWinner)
+            {
+                string winner = "";
+            }
+            }
         }
-    }
 }
 
