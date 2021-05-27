@@ -100,6 +100,8 @@ namespace Tic_Tac_Toe_Game
                     winner = "Player O ";
                 else
                     winner = "Player X ";
+
+                MessageBox.Show(winner + "Wins!", "Player Winner!");
             }
             }
         }
