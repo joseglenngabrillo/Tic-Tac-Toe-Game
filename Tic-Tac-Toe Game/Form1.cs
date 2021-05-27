@@ -62,7 +62,14 @@ namespace Tic_Tac_Toe_Game
         private void LineCheckPlayerWinner()
         {
             bool PlayerWinner = false;
+
+            // Player Winner with horizontal line checks
+            // First horizontal line check from column 1 to 3 in Row 1
+            if ((btnC1R1.Text == btnC2R1.Text) && (btnC2R1.Text == btnC3R1.Text) && (!btnC1R1.Enabled))
+                PlayerWinner = true;
+            
         }
+
     }
 }
 
