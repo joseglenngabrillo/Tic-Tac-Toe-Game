@@ -34,6 +34,7 @@ namespace Tic_Tac_Toe_Game
                 b.Text = "O";
             turn = !turn;
             b.Enabled = false;
+            LineCheckPlayerWinner();
         }
 
         private void btnNewGame_Click(object sender, EventArgs e)
@@ -57,6 +58,9 @@ namespace Tic_Tac_Toe_Game
             btnC1R3.Text = "";
             btnC2R3.Text = "";
             btnC3R3.Text = "";
+        }
+        private void LineCheckPlayerWinner()
+        {
         }
     }
 }
